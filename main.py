@@ -27,7 +27,7 @@ out = nlp(
 # {'score': 0.59147286, 'answer': '$ 3,750', 'start': 19, 'end': 20}
 print(out)
 
-out = nlp("https://1.bp.blogspot.com/-BW3v9mAyzKY/XiLJePf90KI/AAAAAAABMi8/bbdAplvI-dsejDoT4ukBxj72gCYk9GZ2gCLcBGAsYHQ/s1600/license-plate-2020.jpg",
+out = nlp("https://github.com/ypodo/VisualQuestionAnswering/blob/915ea4d29eb7524b8b0c321899e2e5037f79d1b5/IMG_5291.jpg?raw=true",
           "What are the car plate text?")
 
 print(out)
